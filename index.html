@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev - Aula 02</title>
+    <link rel="stylesheet" href= "estilo.css">
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+            <input id= 'primeiroValor' class = 'input' type="number" placeholder="Primeiro valor">
+            <input id= 'segundoValor' class = 'input' type="number" placeholder="Segundo valor">
+            <select name="operacao" id="operacao">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="x">x</option>
+                <option value="/">/</option>
+            </select>
+            <button onclick="calcular()">=</button>
+            <p id="resultado">Resultado</p> 
+        </div>
+    </div>
+</body>
+</html>

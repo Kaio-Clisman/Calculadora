@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif;
+  outline: none;
+  color: black;
+}
+
+
+body{
+  width:100vw;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/vetores-gratis/quadro-de-matematica_23-2148178219.jpg?size=626&ext=jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container{
+  text-align: center;
+  width: 270px;
+  height: 250px;
+  border-radius: 12px;
+  flex-direction: column;
+  display: flex;
+  background-color:#00F5FF;
+  padding: 10px 30px 30px 30px;
+  box-shadow: -10px -10px 30px rgb(153, 142, 142);
+}
+
+input {
+  border-radius: 8px;
+  padding: 8px;
+  margin: 5px;
+  text-align: center;
+}
+#operacao {
+  height: 40px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  text-align-last: center;
+  font-weight: bold;
+}
+button{
+  padding: 8px;
+  font-size: 15px;
+  background-color: #F0F0F3;
+  border: 0px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(226, 218, 218);
+}
+
+button:active{
+  background-color: #F0F0F3;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.0), 0 6px 6px rgba(0,0,0,0.20);
+}
+
+#resultado{
+  padding: 8px;
+  font-size: 15px;
+  background-color: #F0F0F3;
+  border: 0px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+
+@keyframes floating{
+  to{
+    bottom: 40px;
+  }
+  50%{
+    bottom: 50px;
+  }
+  from{
+    bottom: 40px;
+  }
+}
